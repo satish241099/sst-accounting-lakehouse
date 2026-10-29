@@ -138,13 +138,3 @@ SELECT * FROM gold.supplier_compliance;
 | **Incremental MERGE** | CDC-style upserts on silver and gold |
 | **Databricks Workflows** | Multi-task job with task values and error handling |
 | **Interview artifacts** | Architecture doc, cost sheet, data dictionary |
-
----
-
-## Interview Talking Points
-
-See [`docs/interview_talking_points.md`](docs/interview_talking_points.md) for the
-exact narrative. Key story: *"I built a production-grade SST compliance lakehouse
-on Azure Databricks — from raw CSV filings to BI-ready gold marts — with Delta
-Lake, medallion architecture, SCD2 supplier tracking, and Databricks Workflows.
-Here's how I handled [specific challenge]."*
